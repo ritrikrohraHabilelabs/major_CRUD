@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER - POST OFFICE MAIL</title>
+    <link rel="stylesheet" href="../styles/register.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerDiv">
+            <img src="../resource/logo.png" alt="MAIL LOGO">
+            <nav>
+                <ul>
+                    <li>ABOUT US</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="registerDiv">
+            <form action="" onsubmit="registerForm(event)">
+                <input oninput="inputCheck(this)" type="text" name="fullName" placeholder="FULL NAME">
+                <input oninput="inputCheck(this)" type="text" name="userName" placeholder="USER NAME">
+                <input oninput="inputCheck(this)" type="password" name="userPassword" placeholder="CREATE PASSWORD">
+                <input oninput="inputCheck(this)" type="password" name="rePassword" placeholder="RE-ENTER PASSWORD">
+                <select name="userType" id="">
+                    <option value="" selected disabled>REGISTER AS...</option>
+                    <option value="user">USER</option>
+                    <option value="admin">ADMIN</option>
+                </select>
+                <input type="submit" value="REGISTER">
+            </form>
+            <div class="registerText">
+                <p>Already Registered? <span onclick="clicked()">Go To Login Page</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="../scripts/register.js"></script>
+</body>
+
+</html>

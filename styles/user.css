@@ -1,0 +1,14 @@
+.headerDiv nav li button{
+    padding: 10px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container form textarea, .container form input{
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 50%;
+}

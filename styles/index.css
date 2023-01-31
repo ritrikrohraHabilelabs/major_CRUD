@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-color: antiquewhite;
+}
+header div{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 8%;
+    object-fit: contain;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li{
+    margin: 0 10px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ------------------------------- */
+.loginDiv{
+    padding: 10px 0;
+}
+.loginDiv form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginDiv form input, .loginDiv form select{
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 50%;
+}
+.loginText{
+    text-align: center;
+}
+.loginText p span{
+    text-decoration: underline;
+    cursor: pointer;
+    color: brown;
+}

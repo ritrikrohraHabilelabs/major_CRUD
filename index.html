@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST OFFICE MAIL</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerDiv">
+            <img src="./resource/logo.png" alt="MAIL LOGO">
+            <nav>
+                <ul>
+                    <li>ABOUT US</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="loginDiv">
+            <form action="" onsubmit="loginForm(event)">
+                <input type="text" name="userName" placeholder="USER NAME">
+                <input type="password" name="userPassword" placeholder="USER PASSWORD">
+                <select name="userType" id="">
+                    <option value="" selected disabled>LOGIN AS...</option>
+                    <option value="user">USER</option>
+                    <option value="admin">ADMIN</option>
+                </select>
+                <input type="submit" value="LOGIN">
+            </form>
+            <div class="loginText">
+                <p>New Here? <span onclick="clicked()">Register Now</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="./scripts/index.js"></script>
+</body>
+
+</html>
